@@ -31,17 +31,17 @@
       }
       /* Primeira imagem do parallax */
       .bgimg-1 {
-      background-image: url('img/parallax1.jpg');
+      background-image: url('img/parallax01.webp');
       min-height: 100%;
       }
       /* Segunda imagem do parallax */
       .bgimg-2 {
-      background-image: url("img/parallax2.jpg");
+      background-image: url("img/parallax02.webp");
       min-height: 400px;
       }
       /* Terceira imagem do parallax */
       .bgimg-3 {
-      background-image: url("img/parallax3.jpg");
+      background-image: url("img/parallax03.webp");
       min-height: 400px;
       }
       .w3-wide {letter-spacing: 10px;}
@@ -77,8 +77,8 @@
       <!-- Primeira imagem do parallax com logo -->
       <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
          <div class="w3-display-middle" style="white-space:nowrap;">
-            <span class="w3-center w3-wide w3-animate-opacity">
-            <img src="img/planejafish-logo-v1.png" alt="PLANEJAFISH" width="500" height="500">
+            <span class="w3-center w3-wide">
+            <img src="img/planejafish-logo-v2.webp" alt="PLANEJAFISH" width="500" height="500">
             </span>
          </div>
       </div>
@@ -86,16 +86,9 @@
       <div class="w3-content w3-container w3-padding-64" id="about">
          <h3 class="w3-center">QUEM SOMOS</h3>
          <p class="w3-center">Aquicultura é a nossa paixão</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales eros ut purus elementum fringilla. Ut id nisl dui. Aliquam varius dui sit amet malesuada finibus. Duis vel tellus et justo hendrerit ornare sit amet et lorem. In semper, metus quis lobortis sollicitudin, nibh velit rutrum orci, eget cursus ipsum tortor ut neque. Donec lobortis feugiat enim, mattis consectetur tellus mattis sed. Proin dapibus fringilla libero, eget venenatis nibh aliquam ac.</p>
+         <p>Nossa missão é contribuir para o fortalecimento da produção de peixes e outros organismos aquáticos, de maneira que a Aquicultura e a Piscicultura não sejam mais consideradas atividade secundárias na propriedade rural, e assumam posição de destaque como atividades lucrativas e sustentáveis.</p>
+         <p>Temos como visão ser um fator de impulsionamento da Aquicultura e Piscicultura principalmente nas regiões Norte e Noroeste do Paraná, tornando essas regiões em um novo polo produtivo para essas atividades no estado.</p>
          <div class="w3-row w3-center w3-dark-grey w3-padding-16">
-            <div class="w3-third w3-section">
-               <span class="w3-xlarge">MISSÃO</span><br>
-               Contribuir para o fortalecimento da produção de peixes e outros organismos aquáticos, de maneira que a Aquicultura e a Piscicultura não sejam mais consideradas atividade secundárias na propriedade rural, e assumam posição de destaque como atividades lucrativas e sustentáveis.
-            </div>
-            <div class="w3-third w3-section">
-               <span class="w3-xlarge">VISÃO</span><br>
-               Ser um fator de impulsionamento da Aquicultura e Piscicultura principalmente nas regiões Norte e Noroeste do Paraná, tornando essas regiões em um novo polo produtivo para essas atividades no estado.
-            </div>
             <div class="w3-third w3-section">
                <span class="w3-xlarge">VALORES</span><br>
                • Integridade e honestidade no relacionamento com o produtor;
@@ -118,6 +111,17 @@
                <p>Pedro Luiz de Castro, Zootecnista formado pela Universidade Estadual de Maringá, com Mestrado e Doutorado em Produção animal/Aquicultura pela mesma instituição. Tendo realizado parte da tese na University of Tasmania, Austrália. Integrante do grupo de pesquisa Peixegen (Manejo, melhoramento e genética molecular em piscicultura de água doce UEM/DZO). Possui mais de 10 anos de experiência em Aquicultura, principalmente nas áreas de planejamento produtivo, reprodução, larvicultura, alevinocultura e engorda de peixes nativos e tilápia.</p>
             </div>
          </div>
+         <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+               <img src="img/Michel.webp" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+               <p><b><i class="fa fa-user w3-margin-right"></i>Michel Tomitão Ito</b></p>
+               <br>
+            </div>
+            <!-- Esconde o texto em telas pequenas -->
+            <div class="w3-col m6 w3-hide-small w3-padding-large">
+               <p>Michel Tomitão Ito, Zootecnista formado pela Universidade Estadual de Maringá, com curso de sanidade em peixes de criaçãocpela UFMT e curso avançado de Lambaricultura.</p>
+            </div>
+         </div>
       </div>
       <!-- Segunda imagem do parallax com texto-->
       <div class="bgimg-2 w3-display-container w3-opacity-min">
@@ -128,35 +132,21 @@
       <!-- Container da seção "serviços" -->
       <div class="w3-content w3-container w3-padding-64" id="portfolio">
          <h3 class="w3-center">SERVIÇOS</h3>
-         <p class="w3-center">Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</p>
+         <p class="w3-center">Aqui alguns dos serviços que prestamos</p>
          <br>
          <!-- Grid responsiva. Quatro colunas em tablets, laptops e desktops. Empilha em dispoitivos móveis/telas pequenas (100% width) -->
          <div class="w3-row-padding w3-center">
             <div class="w3-col m3">
-               <img src="img/p1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Legenda da imagem p1">
+               <img src="img/assistencia_tecnica.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Assistência técnica">
             </div>
             <div class="w3-col m3">
-               <img src="img/p2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Legenda da imagem p2">
+               <img src="img/consultoria.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Consultoria">
             </div>
             <div class="w3-col m3">
-               <img src="img/p3.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Legenda da imagem p3">
+               <img src="img/cursos.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cursos">
             </div>
             <div class="w3-col m3">
-               <img src="img/p4.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Legenda da imagem p4">
-            </div>
-         </div>
-         <div class="w3-row-padding w3-center w3-section">
-            <div class="w3-col m3">
-               <img src="img/p5.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Legenda da imagem p5">
-            </div>
-            <div class="w3-col m3">
-               <img src="img/p6.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Legenda da imagem p6">
-            </div>
-            <div class="w3-col m3">
-               <img src="img/p7.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Legenda da imagem p7">
-            </div>
-            <div class="w3-col m3">
-               <img src="img/p8.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Legenda da imagem p8">
+               <img src="img/palestras.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Palestras">
             </div>
          </div>
       </div>
@@ -198,7 +188,7 @@
       <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
          <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Voltar ao início</a>
          <div class="w3-xlarge w3-section">
-            <i class="fa fa-facebook-official w3-hover-opacity" onclick="location.href='https://www.facebook.com/';"></i>
+            <i class="fa fa-facebook-official w3-hover-opacity" onclick="location.href='https://www.facebook.com/PlanejaFish/';"></i>
             <i class="fa fa-linkedin w3-hover-opacity" onclick="location.href='https://www.linkedin.com/';"></i>
             <i class="fa fa-whatsapp w3-hover-opacity" onclick="location.href='https://api.whatsapp.com/send?phone=5544988155589&text=Ol%C3%A1,%20vim%20do%20site%20da%20PlanejaFish.';"></i>
          </div>
