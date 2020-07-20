@@ -77,7 +77,7 @@
       <!-- Primeira imagem do parallax com logo -->
       <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
          <div class="w3-display-middle" style="white-space:nowrap;">
-            <span class="w3-center w3-wide">
+            <span class="w3-center w3-wide w3-animate-opacity">
             <img src="img/planejafish-logo-v2.png" alt="PLANEJAFISH" width="500" height="500">
             </span>
          </div>
@@ -89,20 +89,22 @@
          <p>Nossa missão é contribuir para o fortalecimento da produção de peixes e outros organismos aquáticos, de maneira que a Aquicultura e a Piscicultura não sejam mais consideradas atividade secundárias na propriedade rural, e assumam posição de destaque como atividades lucrativas e sustentáveis.</p>
          <p>Temos como visão ser um fator de impulsionamento da Aquicultura e Piscicultura principalmente nas regiões Norte e Noroeste do Paraná, tornando essas regiões em um novo polo produtivo para essas atividades no estado.</p>
          <div class="w3-row w3-center w3-dark-grey w3-padding-16">
-            <div class="w3-third w3-section">
+            <div class="w3-section">
                <span class="w3-xlarge">VALORES</span><br>
-               • Integridade e honestidade no relacionamento com o produtor;
-               • Personalização do atendimento de acordo com as necessidades e demandas de cada propriedade;
-               • Empenho e dedicação para contribuir com a qualidade do trabalho realizado;
-               • Criatividade e Responsabilidade para a resolução dos problemas e redução dos custos de produção;
-               • Empreendedorismo e inovação para facilitação dos manejos e aumento do retorno financeiro;
-               • Compromisso com os resultados e lucro junto aos clientes;
-               • Desenvolvimento sustentável da atividade, levando em consideração o desenvolvimento social, ambienta e econômico;
+                  <ul>
+                     <li>Integridade e honestidade no relacionamento com o produtor;</li>
+                     <li>Personalização do atendimento de acordo com as necessidades e demandas de cada propriedade;</li>
+                     <li>Empenho e dedicação para contribuir com a qualidade do trabalho realizado;</li>
+                     <li>Criatividade e Responsabilidade para a resolução dos problemas e redução dos custos de produção;</li>
+                     <li>Empreendedorismo e inovação para facilitação dos manejos e aumento do retorno financeiro;</li>
+                     <li>Compromisso com os resultados e lucro junto aos clientes;</li>
+                     <li>Desenvolvimento sustentável da atividade, levando em consideração o desenvolvimento social, ambienta e econômico;</li>
+                  </ul>
             </div>
          </div>
          <div class="w3-row">
             <div class="w3-col m6 w3-center w3-padding-large">
-               <img src="img/Pedro.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+               <img src="img/Pedro.png" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
                <p><b><i class="fa fa-user w3-margin-right"></i>Dr. Pedro Luiz de Castro</b></p>
                <br>
             </div>
@@ -113,13 +115,13 @@
          </div>
          <div class="w3-row">
             <div class="w3-col m6 w3-center w3-padding-large">
-               <img src="img/Michel.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+               <img src="img/Michel.png" class="w3-round w3-image alt="Photo of Me" width="500" height="333">
                <p><b><i class="fa fa-user w3-margin-right"></i>Michel Tomitão Ito</b></p>
                <br>
             </div>
             <!-- Esconde o texto em telas pequenas -->
             <div class="w3-col m6 w3-hide-small w3-padding-large">
-               <p>Michel Tomitão Ito, Zootecnista formado pela Universidade Estadual de Maringá, com curso de sanidade em peixes de criaçãocpela UFMT e curso avançado de Lambaricultura.</p>
+               <p>Michel Tomitão Ito, Zootecnista formado pela Universidade Estadual de Maringá, com curso de sanidade em peixes de criação pela UFMT e curso avançado de Lambaricultura.</p>
             </div>
          </div>
       </div>
@@ -132,21 +134,25 @@
       <!-- Container da seção "serviços" -->
       <div class="w3-content w3-container w3-padding-64" id="portfolio">
          <h3 class="w3-center">SERVIÇOS</h3>
-         <p class="w3-center">Aqui alguns dos serviços que prestamos</p>
+         <p class="w3-center">Nossa lista de serviços prestados</p>
          <br>
          <!-- Grid responsiva. Quatro colunas em tablets, laptops e desktops. Empilha em dispoitivos móveis/telas pequenas (100% width) -->
          <div class="w3-row-padding w3-center">
             <div class="w3-col m3">
-               <img src="img/assistencia_tecnica.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Assistência técnica">
+               <img src="img/assistencia_tecnica.png" style="width:100%" class="w3-hover-opacity" alt="Assistência técnica">
+               <div>Assistência técnica</div>
             </div>
             <div class="w3-col m3">
-               <img src="img/consultoria.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Consultoria">
+               <img src="img/consultoria.png" style="width:100%" class="w3-hover-opacity" alt="Consultoria">
+               <div>Consultoria</div>
             </div>
             <div class="w3-col m3">
-               <img src="img/cursos.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cursos">
+               <img src="img/cursos.png" style="width:100%" class="w3-hover-opacity" alt="Cursos">
+               <div>Cursos</div>
             </div>
             <div class="w3-col m3">
-               <img src="img/palestras.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Palestras">
+               <img src="img/palestras.png" style="width:100%" class="w3-hover-opacity" alt="Palestras">
+               <div>Palestras</div>
             </div>
          </div>
       </div>
@@ -196,14 +202,7 @@
          <p>Made with ♥ by Felipe Castro</p>
       </footer>
       <script>
-         // Galeria das imagens no modal
-         function onClick(element) {
-           document.getElementById("img01").src = element.src;
-           document.getElementById("modal01").style.display = "block";
-           var captionText = document.getElementById("caption");
-           captionText.innerHTML = element.alt;
-         }
-         
+
          // Muda o estilo da navbar durante a rolagem
          window.onscroll = function() {myFunction()};
          function myFunction() {
